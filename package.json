@@ -1,0 +1,17 @@
+{
+  "name": "express-middleware",
+  "version": "1.0.0",
+  "description": "Express.js Middleware Demo Application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "faculty": "node expressapplication.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}

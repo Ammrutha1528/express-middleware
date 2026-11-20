@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Alan Turing",
+    "dept": "Computer Science",
+    "designation": "Professor"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Grace Hopper",
+    "dept": "Information Technology",
+    "designation": "Associate Professor"
+  }
+]
