@@ -56,6 +56,7 @@ const validate = (req, res, next) => {
 // POST http://localhost:6500/api/v1/patients
 // Body: { "name": "Mahi", "gender": "Female", "ward": "ICU" }
 
+app.get("/", (req, res) => res.json({ message: "Express Middleware API is live and healthy", status: "OK", docs: "/api/v1/patients" }));
 app.post("/api/v1/patients", validate, (req, res) => {
   res.status(200).send("Patient record created successfully");
 });
